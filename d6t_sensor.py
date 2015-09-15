@@ -63,7 +63,7 @@ if __name__ == "__main__":
     d6t_result = a.get_d6t_result()
     end = time.time()
     print("{}> Time taken : {}".format(count + 1,(end - start)))
-
+    print("{} > {}".format(count + 1, d6t_result))
     lst_result.append(form_dct_result(d6t_result))
     count += 1
     time.sleep(0.2)
